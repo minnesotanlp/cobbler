@@ -1,0 +1,83 @@
+body {
+    background-color: #fbfbfb;
+    font-family: Arial, sans-serif;
+}
+
+@media (min-width: 991.98px) {
+    main {
+        padding-left: 240px;
+    }
+}
+
+button#evaluator {
+    width: 180px;
+    background-color: rgba(75, 120, 250, 0.3) !important;
+    border-color: #fbfbfb !important;
+}
+
+button#model-selector {
+    width: 180px;
+    background-color: rgba(75, 120, 250, 0.3) !important;
+    border-color: #fbfbfb !important;
+}
+
+ul.list-group.current-evaluator {
+    width: 400px;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding: 0;
+}
+
+ul.list-group.current-evaluator>li {
+    width: 400px;
+    text-align: center;
+    background-color: rgba(75, 120, 250, 0.3) !important;
+    border-color: #fbfbfb !important;
+    font-style: italic;
+}
+
+.example {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.instruction{
+    margin-bottom: -4px;
+    font-size: 14px;
+    padding: 4px 15px;
+}
+
+.instruction div{
+    background-color: rgba(75, 192, 192, 0.1); /* Green */
+    color: #666;
+}
+
+.reference{
+    margin-bottom: -4px;
+    font-size: 14px;
+    padding: 4px 15px;
+}
+
+.reference div{
+    background-color: rgba(255, 206, 86, 0.15); /* Light Yellow */
+    color: #666;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+} */
+
+span#ranker {
+    margin-left: 5px;
+}
+
+span#ranker-info {
+    margin-left: 5px;
+    background-color: rgba(220, 53, 69, 0.5) !important;
+}
+
+div#line-text {
+    white-space: pre-line;
+}
