@@ -1,0 +1,21 @@
+framework: "cohere"
+
+mode: "completion"
+batch_size: 20
+
+# Parameters for generation
+# Check the documentation: https://docs.cohere.ai/reference/generate
+params:
+  model: "command-xlarge-nightly" # This model is in active development
+  max_tokens: 128
+  temperature: 0
+  num_generations: 1
+  k: 0
+  p: 1
+  frequency_penalty: 0.0
+  presence_penalty: 0.0
+  end_sequences: []
+  stop_sequences: []
+  return_likelihoods: "NONE" # This has to be string and one of GENERATION|ALL|NONE
+  logit_bias: {}
+  truncate: "END" # This has to be string and one of NONE|START|END

@@ -1,0 +1,17 @@
+framework: "openai"
+
+mode: "chat"
+batch_size: 20
+
+# API details on "chat" task can be found here: https://platform.openai.com/docs/api-reference/chat
+params:  # Below shows the parameters that are passed to the API call directly
+  model: "gpt-3.5-turbo"
+  max_tokens: 128
+  temperature: 0.0
+  top_p: 1
+  n: 1
+  stream: false
+  stop: null
+  presence_penalty: 0
+  frequency_penalty: 0
+  logit_bias: {}

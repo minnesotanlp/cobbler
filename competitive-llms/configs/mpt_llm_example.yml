@@ -1,0 +1,23 @@
+framework: "mpt"
+
+
+
+mode: "AutoModelForCausalLM"
+model: "mosaicml/mpt-7b-instruct"
+device: "cuda"
+batch_size: 20
+skip_special_tokens: true
+
+# Please do check the documentation: c.f. https://huggingface.co/mosaicml/mpt-7b
+params:
+  max_new_tokens: 128
+  early_stopping: true
+  num_beams: 3
+  do_sample: false
+  temperature: 0.0
+  top_p: 1.0
+  top_k: 50
+  use_cache: true
+  num_return_sequences: 1
+  do_sample: true
+  repetition_penalty: 1.2

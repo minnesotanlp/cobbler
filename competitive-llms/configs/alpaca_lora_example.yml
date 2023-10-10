@@ -1,0 +1,20 @@
+framework: "alpaca-lora"
+
+mode: "LlamaForCausalLM"
+model: "decapoda-research/llama-13b-hf"
+device: "cuda:0"                           # 'cpu' or 'cuda'
+lora_weights: "Angainor/alpaca-lora-13b"
+load_8bit: false                         # if device is 'cpu', then load_8bit must be true
+batch_size: 20
+skip_special_tokens: true
+
+params:
+  max_new_tokens: 128
+  early_stopping: true
+  num_beams: 3
+  use_cache: true
+  do_sample: false
+  temperature: 0.0
+  top_p: 1.0
+  top_k: 50
+  num_return_sequences: 1

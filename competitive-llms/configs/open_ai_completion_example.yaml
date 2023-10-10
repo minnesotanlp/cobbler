@@ -1,0 +1,21 @@
+framework: "openai"
+
+mode: "completion"
+batch_size: 20
+
+# API details on "completion" task can be found here: https://platform.openai.com/docs/api-reference/completions
+params:  # Below shows the parameters that are passed to the API call directly
+  model: "text-davinci-003"
+  suffix: null
+  max_tokens: 128
+  temperature: 0.0
+  top_p: 1
+  n: 1
+  stream: false
+  logprobs: null
+  echo: false
+  stop: null
+  presence_penalty: 0
+  frequency_penalty: 0
+  best_of: 1
+  logit_bias: {}

@@ -1,0 +1,22 @@
+framework: "huggingface"
+
+
+device: "cuda"
+mode: "AutoModelForSeq2SeqLM" # For AutoModelForCausalLM, the model needs fine-tuning
+model:
+  name: "google/pegasus-xsum"
+
+batch_size: 20
+skip_special_tokens: true
+
+# Parameters for GenerationConfig
+# Please do check the documentation: c.f. https://huggingface.co/docs/transformers/main/en/main_classes/text_generation#transformers.GenerationConfig
+# num_beams is not used
+params:
+  max_new_tokens: 128
+  early_stopping: true
+  use_cache: true
+  temperature: 1.0
+  top_p: 1.0
+  top_k: 50
+  num_return_sequences: 1

@@ -1,0 +1,22 @@
+framework: "huggingface"
+
+
+device: "cuda"
+mode: "AutoModelForCausalLM"
+model:
+  name: "/corpora/models/LLaMA/converted/7B" # Fill out the model path e.g. /hom/jonginn/volume/models/LLaMA/
+
+batch_size: 20
+skip_special_tokens: true
+
+# Parameters for GenerationConfig
+# Please do check the documentation: c.f. https://huggingface.co/docs/transformers/main/en/main_classes/text_generation#transformers.GenerationConfig
+params:
+  max_new_tokens: 64
+  early_stopping: true
+  num_beams: 3
+  do_sample: false
+  temperature: 0.0
+  top_p: 1.0
+  top_k: 50
+  num_return_sequences: 1
