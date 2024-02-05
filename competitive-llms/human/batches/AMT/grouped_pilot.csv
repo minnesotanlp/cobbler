@@ -1,0 +1,21 @@
+Annotator,Method_1,Method_2,Method_3,Method_4,Method_5,Method_6,Method_7,Method_8,Method_9,Method_10,Method_11,Method_12,Method_13,Method_14,Method_15,Method_16
+0,System L,System B,System H,System K,System D,System N,System A,System C,System O,System J,black-bar,System F,System M,System I,System E,System G
+1,System L,System K,System B,System A,System O,System H,System C,System D,System J,System N,black-bar,System F,System M,System E,System G,System I
+2,System D,System K,System O,System A,System H,System N,black-bar,System L,System E,System J,System F,System C,System B,System M,System I,System G
+3,System L,System B,System O,System H,System A,System N,System K,System D,black-bar,System C,System F,System M,System J,System E,System G,System I
+0,System F,System A,System M,System G,black-bar,System E,System C,System B,System L,System J,System N,System H,System O,System D,System K,System I
+1,System F,System G,System A,System M,black-bar,System E,System C,System B,System L,System J,System N,System H,System O,System D,System K,System I
+2,System B,System J,System N,System L,System I,System H,System E,System O,black-bar,System F,System C,System M,System D,System G,System K,System A
+3,System E,System F,System C,System B,System L,System J,System N,System H,System O,System I,black-bar,System D,System A,System G,System K,System M
+0,System I,System B,System F,System K,black-bar,System E,System A,System G,System H,System O,System J,System M,System N,System D,System L,System C
+1,System B,System F,System I,System K,black-bar,System E,System A,System G,System H,System O,System J,System M,System N,System D,System L,System C
+2,System I,System E,System B,System F,System G,System A,System H,System O,System L,black-bar,System M,System D,System J,System K,System C,System N
+3,System E,System I,System A,System B,System G,System H,System F,System M,black-bar,System O,System J,System N,System D,System L,System K,System C
+0,System A,System K,System I,black-bar,System E,System O,System D,System H,System C,System F,System L,System J,System G,System M,System B,System N
+1,System K,System A,black-bar,System I,System E,System O,System D,System H,System C,System F,System L,System J,System G,System M,System B,System N
+2,System H,System B,System A,System E,System I,System D,System C,System F,System K,System L,System N,System G,System M,black-bar,System O,System J
+3,System I,System E,System O,System D,System A,System H,System K,System C,System F,System L,System J,black-bar,System G,System M,System B,System N
+0,System E,System L,System J,System B,System A,System G,System F,System I,System K,System D,System O,System M,black-bar,System C,System H,System N
+1,System F,System E,System L,System J,System G,System B,System A,System K,System I,System D,System O,System M,black-bar,System C,System H,System N
+2,System E,System J,System A,System G,System F,black-bar,System O,System L,System C,System K,System D,System I,System B,System M,System N,System H
+3,System F,System E,System J,System B,System C,System G,System K,System I,System O,System L,System H,System A,System D,System M,System N,black-bar

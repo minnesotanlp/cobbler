@@ -1,0 +1,156 @@
+.black-bar {
+    background-color: black;
+    /* Add other styles as needed */
+  }
+  
+.black-bar-content {
+    height: 10px;
+    background-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.example {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.instruction{
+    margin-bottom: -4px;
+    font-size: 14px;
+    padding: 4px 15px;
+}
+
+.instruction div{
+    background-color: rgba(75, 192, 192, 0.1); /* Green */
+    color: #666;
+}
+
+.reference{
+    margin-bottom: -4px;
+    font-size: 14px;
+    padding: 4px 15px;
+}
+
+.reference div{
+    background: rgba(255, 206, 86, 0.15); /* Light Yellow */
+    color: #666;
+}
+
+.dotted-separator {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 5px;
+}
+
+.methodAnon {
+     background: rgba(0, 0, 0, 0.05); /* Light Gray */
+}
+
+.method0 {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.method1 {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+
+.methodA {
+    background-color: rgba(255, 99, 132, 0.1); /* Red */
+}
+.methodB {
+    background-color: rgba(75, 192, 192, 0.1); /* Green */
+}
+.methodC {
+    background-color: rgba(255, 206, 86, 0.1); /* Yellow */
+}
+
+.rank-number {
+    padding: 4px 7px;
+    background: rgba(0, 0, 0, 0.75) !important;
+    margin-right: -4px;
+    margin-left: 10px;
+    /*margin-bottom: 4px;*/
+}
+
+.rank-number-input {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.75) !important;
+    margin-right: -4px;
+    margin-left: 10px;
+    border-radius: 50rem!important;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    width: 30px;
+    border: 0px;
+}
+
+.rank-number-input-invalid {
+    border: 2px solid #E66465;
+}
+
+.ui-sortable-handle {
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+ /* (Optional) Apply a "closed-hand" cursor during drag operation. */
+.ui-sortable-handle:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.validity-rating, .naturalness-rating {
+   color: #666;
+   /*font-variant: small-caps;
+   text-transform: lowercase;*/
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none; 
+  /*width: 100%;*/
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  height: 6px;
+  background: #ccc;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 1px;
+    margin:auto
+  }
+  
+  figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pairwise Bias Experiments</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://mimn97.github.io/AMTRanker/css/style.css">
+</head>
+<div class="jumbotron text-center" style="margin: bottom 0px;">
+  <h3>A Study about Human Preference on AI-generated texts</h3>
+  <div>Please email Ryan Koo at <a href = "mailto:koo00017@umn.edu"> koo00017@umn.edu</a> if you have any question and/or find any problem.</div> 
+</div>
+
+<div class="container" style="font-size:10px; margin-bottom:0;">
+    <div class="container" id="instruction_page" style="font-size:18px"> 
+      <div style="display: none; margin-bottom: 0;"></div>
+      <p style="text-align: center;"><b> DO NOT CLICK <span style="background-color: orange;">SUBMIT </span> BUTTON!! </b></p>
+
+    </div>
+    <div class="container" id="qual_page" style="font-size:18px"> 
+        <div style="display: none; margin-bottom: 0;" id="qual_page"></div>
+        <p style="text-align: center;"><b> DO NOT CLICK <span style="background-color: orange;">SUBMIT </span> BUTTON!! </b></p>
+    </div>
+  <body>
+
+        <crowd-form>
+        <section class="container" id="task_page" style="font-size:18px; "> 
+
+          <div style="margin-bottom: 0;" id="task_page_head"></div>
+
+          <div class="container" id="example-container-task"></div>
+
+        <br><br>    
+        </section>
+        </crowd-form>
+      </hr>
+</div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mt-5 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">
+          © 2023 University of Minnesota, Twin Cities.
+        </p>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="instruction_bias.js"></script>
+    <script src="qual_bias.js"></script>
+    <script src="example_bias.js"></script>
+    <script src="task_bias.js"></script>
+
+  </body>
+</html>
